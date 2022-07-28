@@ -1,5 +1,5 @@
-import React, { useCallback, useRef, useState } from 'react';
-import { HashRouter, BrowserRouter, Route, Routes, Navigate, useNavigate } from 'react-router-dom'
+import React from 'react';
+import { Route, Routes, Navigate, useNavigate } from 'react-router-dom'
 import Home from './page/Home'
 import About from './page/About'
 import NotFound from './page/NotFound'
