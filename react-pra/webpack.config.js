@@ -10,6 +10,11 @@ module.exports = {
         filename: "[name].[hash:8].bundle.js" // 打包后输出的文件名
     },
     mode: "development",
+    resolve: {
+        alias: {
+            '@': path.join(__dirname, 'src')
+        }
+    },
     //loader
     module: {
         rules: [
