@@ -21,7 +21,7 @@ module.exports = {
             {
                 // 匹配规则
                 test: /\.jsx?$/,
-                exclude: path.join(__dirname, 'node_modules'),
+                // exclude: path.join(__dirname, 'node_modules'),
                 use: [{
                     loader: 'babel-loader',
                     options: {

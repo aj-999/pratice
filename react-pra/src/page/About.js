@@ -17,9 +17,9 @@ function About() {
 
 
     useEffect(() => {
-        console.log(location);
-        console.log(seacrchParams.get("id"));
-        console.log(parmas);
+        // console.log(location);
+        // console.log(seacrchParams.get("id"));
+        // console.log(parmas);
     }, [])
 
     return (

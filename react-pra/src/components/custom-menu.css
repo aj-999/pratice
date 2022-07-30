@@ -1,0 +1,11 @@
+.layout-rig {
+  background: #001529;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+}
+.layout-rig span {
+  font-size: 14px;
+  color: #fff;
+  margin: 0 8px;
+}
