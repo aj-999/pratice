@@ -3,7 +3,7 @@ import { Route, Routes, Navigate, useNavigate, useLocation } from 'react-router-
 import CustomMenu from './components/CustomMenu'
 import About from './page/About'
 import TodoList from './page/Todolist';
-import ReducerText from './page/Reducer';
+import ReducerText from './page/Redux';
 import NotFound from './page/NotFound'
 import './index.less'
 
@@ -19,7 +19,7 @@ const items = [
 
 const route = [
     { path: '/todolist', element: <TodoList /> },
-    { path: '/redux', element: <ReducerText /> },
+    { path: '/redux/*', element: <ReducerText /> },
     { path: '/about', element: <About /> },
     { path: '/not', element: <NotFound /> },
 ]

@@ -1,0 +1,14 @@
+.redux_container {
+  padding: 100px 250px;
+  width: 1000px;
+  margin: 0 auto;
+  background: #f9f9f9;
+}
+.redux_container .wrapper {
+  margin-top: 30px;
+}
+.redux_container .wrapper .item {
+  border: 1px solid #f0f0f0;
+  padding: 10px;
+  background: #fff;
+}
